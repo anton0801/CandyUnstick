@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB1BAD92C27230D007AA150 /* Candy_UnstickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BAD82C27230D007AA150 /* Candy_UnstickApp.swift */; };
+		EEB1BADB2C27230D007AA150 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BADA2C27230D007AA150 /* ContentView.swift */; };
+		EEB1BADD2C272310007AA150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BADC2C272310007AA150 /* Assets.xcassets */; };
+		EEB1BAE02C272310007AA150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BADF2C272310007AA150 /* Preview Assets.xcassets */; };
+		EEB1BAEA2C272E26007AA150 /* CandiesUnstickGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BAE92C272E26007AA150 /* CandiesUnstickGameScene.swift */; };
+		EEB1BAEC2C2733EB007AA150 /* SpicyRice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BAEB2C2733EB007AA150 /* SpicyRice-Regular.ttf */; };
+		EEB1BAF02C273B17007AA150 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BAEF2C273B17007AA150 /* Levels.swift */; };
+		EEB1BAF32C27493E007AA150 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BAF22C27493D007AA150 /* bg.mp3 */; };
+		EEB1BAF52C274948007AA150 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BAF42C274948007AA150 /* click.mp3 */; };
+		EEB1BAF72C274B79007AA150 /* UnstickGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BAF62C274B79007AA150 /* UnstickGameView.swift */; };
+		EEB1BAFC2C274B95007AA150 /* GameHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BAFB2C274B95007AA150 /* GameHomeView.swift */; };
+		EEB1BB012C274E30007AA150 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB002C274E30007AA150 /* UserManager.swift */; };
+		EEB1BB032C274E3D007AA150 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB022C274E3D007AA150 /* UserModel.swift */; };
+		EEB1BB072C2763DE007AA150 /* RulesGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB062C2763DE007AA150 /* RulesGameView.swift */; };
+		EEB1BB0A2C2767A1007AA150 /* SettingsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB092C2767A1007AA150 /* SettingsGameView.swift */; };
+		EEB1BB0F2C276AF2007AA150 /* ShopeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB0E2C276AF2007AA150 /* ShopeGameView.swift */; };
+		EEB1BB122C283574007AA150 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB112C283574007AA150 /* ShopViewModel.swift */; };
+		EEB1BB142C283580007AA150 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB132C283580007AA150 /* ShopItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEB1BAD52C27230D007AA150 /* Candy Unstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Unstick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB1BAD82C27230D007AA150 /* Candy_UnstickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_UnstickApp.swift; sourceTree = "<group>"; };
+		EEB1BADA2C27230D007AA150 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB1BADC2C272310007AA150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB1BADF2C272310007AA150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB1BAE92C272E26007AA150 /* CandiesUnstickGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandiesUnstickGameScene.swift; sourceTree = "<group>"; };
+		EEB1BAEB2C2733EB007AA150 /* SpicyRice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.ttf"; sourceTree = "<group>"; };
+		EEB1BAED2C2733F7007AA150 /* Candy-Unstick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Candy-Unstick-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEB1BAEF2C273B17007AA150 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		EEB1BAF22C27493D007AA150 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		EEB1BAF42C274948007AA150 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		EEB1BAF62C274B79007AA150 /* UnstickGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstickGameView.swift; sourceTree = "<group>"; };
+		EEB1BAFB2C274B95007AA150 /* GameHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeView.swift; sourceTree = "<group>"; };
+		EEB1BB002C274E30007AA150 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EEB1BB022C274E3D007AA150 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EEB1BB062C2763DE007AA150 /* RulesGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesGameView.swift; sourceTree = "<group>"; };
+		EEB1BB092C2767A1007AA150 /* SettingsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGameView.swift; sourceTree = "<group>"; };
+		EEB1BB0E2C276AF2007AA150 /* ShopeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopeGameView.swift; sourceTree = "<group>"; };
+		EEB1BB112C283574007AA150 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		EEB1BB132C283580007AA150 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB1BAD22C27230D007AA150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB1BACC2C27230D007AA150 = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAD72C27230D007AA150 /* Candy Unstick */,
+				EEB1BAD62C27230D007AA150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB1BAD62C27230D007AA150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAD52C27230D007AA150 /* Candy Unstick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB1BAD72C27230D007AA150 /* Candy Unstick */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB0C2C276ADD007AA150 /* ShopeGame */,
+				EEB1BB082C276793007AA150 /* SettingsGame */,
+				EEB1BB042C2763C5007AA150 /* RulesGame */,
+				EEB1BAFD2C274E1C007AA150 /* DataModel */,
+				EEB1BAF92C274B85007AA150 /* GameHome */,
+				EEB1BAF12C274934007AA150 /* AudioFiles */,
+				EEB1BAED2C2733F7007AA150 /* Candy-Unstick-Info.plist */,
+				EEB1BAEB2C2733EB007AA150 /* SpicyRice-Regular.ttf */,
+				EEB1BAE62C272E05007AA150 /* UnstickGameViews */,
+				EEB1BAD82C27230D007AA150 /* Candy_UnstickApp.swift */,
+				EEB1BADA2C27230D007AA150 /* ContentView.swift */,
+				EEB1BADC2C272310007AA150 /* Assets.xcassets */,
+				EEB1BADE2C272310007AA150 /* Preview Content */,
+			);
+			path = "Candy Unstick";
+			sourceTree = "<group>";
+		};
+		EEB1BADE2C272310007AA150 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BADF2C272310007AA150 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB1BAE62C272E05007AA150 /* UnstickGameViews */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAE82C272E11007AA150 /* View */,
+				EEB1BAE72C272E0D007AA150 /* GameScene */,
+			);
+			path = UnstickGameViews;
+			sourceTree = "<group>";
+		};
+		EEB1BAE72C272E0D007AA150 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAEE2C273B0F007AA150 /* Levels */,
+				EEB1BAE92C272E26007AA150 /* CandiesUnstickGameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		EEB1BAE82C272E11007AA150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAF62C274B79007AA150 /* UnstickGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB1BAEE2C273B0F007AA150 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAEF2C273B17007AA150 /* Levels.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		EEB1BAF12C274934007AA150 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAF22C27493D007AA150 /* bg.mp3 */,
+				EEB1BAF42C274948007AA150 /* click.mp3 */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		EEB1BAF92C274B85007AA150 /* GameHome */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAFA2C274B8D007AA150 /* View */,
+			);
+			path = GameHome;
+			sourceTree = "<group>";
+		};
+		EEB1BAFA2C274B8D007AA150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAFB2C274B95007AA150 /* GameHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB1BAFD2C274E1C007AA150 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BAFF2C274E26007AA150 /* Model */,
+				EEB1BAFE2C274E20007AA150 /* Manager */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		EEB1BAFE2C274E20007AA150 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB002C274E30007AA150 /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EEB1BAFF2C274E26007AA150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB022C274E3D007AA150 /* UserModel.swift */,
+				EEB1BB132C283580007AA150 /* ShopItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEB1BB042C2763C5007AA150 /* RulesGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB052C2763CF007AA150 /* View */,
+			);
+			path = RulesGame;
+			sourceTree = "<group>";
+		};
+		EEB1BB052C2763CF007AA150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB062C2763DE007AA150 /* RulesGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB1BB082C276793007AA150 /* SettingsGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB0B2C2767C6007AA150 /* View */,
+			);
+			path = SettingsGame;
+			sourceTree = "<group>";
+		};
+		EEB1BB0B2C2767C6007AA150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB092C2767A1007AA150 /* SettingsGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB1BB0C2C276ADD007AA150 /* ShopeGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB102C277259007AA150 /* ViewModel */,
+				EEB1BB0D2C276AE5007AA150 /* View */,
+			);
+			path = ShopeGame;
+			sourceTree = "<group>";
+		};
+		EEB1BB0D2C276AE5007AA150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB0E2C276AF2007AA150 /* ShopeGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB1BB102C277259007AA150 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB112C283574007AA150 /* ShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB1BAD42C27230D007AA150 /* Candy Unstick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB1BAE32C272310007AA150 /* Build configuration list for PBXNativeTarget "Candy Unstick" */;
+			buildPhases = (
+				EEB1BAD12C27230D007AA150 /* Sources */,
+				EEB1BAD22C27230D007AA150 /* Frameworks */,
+				EEB1BAD32C27230D007AA150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Candy Unstick";
+			productName = "Candy Unstick";
+			productReference = EEB1BAD52C27230D007AA150 /* Candy Unstick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB1BACD2C27230D007AA150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEB1BAD42C27230D007AA150 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEB1BAD02C27230D007AA150 /* Build configuration list for PBXProject "Candy Unstick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB1BACC2C27230D007AA150;
+			productRefGroup = EEB1BAD62C27230D007AA150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB1BAD42C27230D007AA150 /* Candy Unstick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB1BAD32C27230D007AA150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB1BAE02C272310007AA150 /* Preview Assets.xcassets in Resources */,
+				EEB1BAF52C274948007AA150 /* click.mp3 in Resources */,
+				EEB1BAF32C27493E007AA150 /* bg.mp3 in Resources */,
+				EEB1BADD2C272310007AA150 /* Assets.xcassets in Resources */,
+				EEB1BAEC2C2733EB007AA150 /* SpicyRice-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB1BAD12C27230D007AA150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB1BADB2C27230D007AA150 /* ContentView.swift in Sources */,
+				EEB1BAEA2C272E26007AA150 /* CandiesUnstickGameScene.swift in Sources */,
+				EEB1BB072C2763DE007AA150 /* RulesGameView.swift in Sources */,
+				EEB1BB032C274E3D007AA150 /* UserModel.swift in Sources */,
+				EEB1BB012C274E30007AA150 /* UserManager.swift in Sources */,
+				EEB1BAF02C273B17007AA150 /* Levels.swift in Sources */,
+				EEB1BB0F2C276AF2007AA150 /* ShopeGameView.swift in Sources */,
+				EEB1BAF72C274B79007AA150 /* UnstickGameView.swift in Sources */,
+				EEB1BB142C283580007AA150 /* ShopItem.swift in Sources */,
+				EEB1BB122C283574007AA150 /* ShopViewModel.swift in Sources */,
+				EEB1BB0A2C2767A1007AA150 /* SettingsGameView.swift in Sources */,
+				EEB1BAD92C27230D007AA150 /* Candy_UnstickApp.swift in Sources */,
+				EEB1BAFC2C274B95007AA150 /* GameHomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEB1BAE12C272310007AA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB1BAE22C272310007AA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB1BAE42C272310007AA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Unstick/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Unstick-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Candy-Unstick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB1BAE52C272310007AA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Unstick/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Unstick-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Candy-Unstick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB1BAD02C27230D007AA150 /* Build configuration list for PBXProject "Candy Unstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1BAE12C272310007AA150 /* Debug */,
+				EEB1BAE22C272310007AA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB1BAE32C272310007AA150 /* Build configuration list for PBXNativeTarget "Candy Unstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1BAE42C272310007AA150 /* Debug */,
+				EEB1BAE52C272310007AA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB1BACD2C27230D007AA150 /* Project object */;
+}
